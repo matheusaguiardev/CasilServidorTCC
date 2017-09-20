@@ -5,4 +5,4 @@ Servidor baseado em Node.js, criado com o objetivo para enviar notificações ut
 
 ## Agradecimento
 
-* **Caio Rodrigues** - *Grande contribuição com o artigo e com o trabalho* - [PurpleBooth](https://github.com/caiolrm)
+* **Caio Rodrigues** - *Grande contribuição com o artigo e com o trabalho* - [Caiolrm](https://github.com/caiolrm)
