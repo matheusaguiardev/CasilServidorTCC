@@ -167,7 +167,8 @@ function createMessageWithText(msg){
     var message = { 
     app_id: "f970e492-e21e-4d93-bc40-075610c6fc59",
     contents: {"en": msg},
-    included_segments: ["All"]
+    included_segments: ["All"],
+    priority: 10
     };
 return message;
 }
