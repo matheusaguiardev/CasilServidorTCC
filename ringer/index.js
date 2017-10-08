@@ -1,6 +1,10 @@
 var gpio = require('rpi-gpio');
 var play = require('play').Play();
+<<<<<<< HEAD
 var oneSignal = require('../CreateNotification.js');
+=======
+//var oneSignal = require('./../CreateNotification');
+>>>>>>> b0957b69079c7d0388851654e4b37dac900d8f6a
 
 const PIN_NUMBER = 7;
 var timeout = null
@@ -15,7 +19,7 @@ var timeout = null
       if(!timeout) {
 				console.log(">>>>>>>>>>>> DING DING DING <<<<<<<<<<<<");
 				 play.sound(require('path').join(process.cwd(), './ding.wav'));
-				 oneSignal(createMessageWithText("Tem alguém na porta !"));
+				 //oneSignal(createMessageWithText("Tem alguém na porta !"));
          timeout = setTimeout(function() {
          clearTimeout(timeout);
          timeout = null;
