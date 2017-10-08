@@ -22,5 +22,5 @@ var timeout = null
     return !timeout
     }
 
-gpio.setup(PIN_NUMBER, gpio.DIR_IN, gpio.EDGE_BOTH);
+gpio.setup(PIN_NUMBER, gpio.DIR_IN, gpio.EDGE_RISING);
 console.log('>>>>> Servidor iniciado <<<<<');
