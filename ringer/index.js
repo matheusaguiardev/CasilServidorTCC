@@ -1,6 +1,6 @@
 var gpio = require('rpi-gpio');
 var play = require('play').Play();
-var oneSignal = require('./../CreateNotification');
+var oneSignal = require('../CreateNotification.js');
 
 const PIN_NUMBER = 7;
 var timeout = null
